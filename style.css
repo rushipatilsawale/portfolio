@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    border: border-box;
+}
+
+.navbar {
+    height: 170px;
+    background: linear-gradient(90deg, #141e30, #243b55);
+    color: white;
+    padding: 10px 10px 10px 10px;
+}
+
+.nav-top {
+    display: flex;
+}
+
+.top1 {
+    width: 45%;
+    display: flex;
+    align-items: center;
+}
+
+img {
+    border-radius: 50%;
+}
+
+.name {
+    padding-left: 5px;
+    font-size: 20px;
+}
+
+.top2 {
+    width: 55%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-bottom {
+    display: flex;
+}
+
+.nav-intro {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-pages {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+main {
+    padding: 0px 10px 0px 10px;
+    margin: 10px 20px 10px 20px;
+}
+
+.container {
+    background: linear-gradient(to right, #eef2f3, #dfe9f3);
+    padding: 15px;
+}
+
+b {
+    display: inline-block;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+th,
+td {
+    border: 2px solid black;
+    padding: 10px;
+    vertical-align: middle;
+    word-wrap: break-word;
+}
+
+table {
+    margin: 10px auto;
+    border-collapse: collapse;
+    width: 80%;
+    text-align: center;
+    background-color: white;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+.skills {
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 20px;
+    color: black;
+}
+
+.tech-skills,
+.core-skills,
+.other-skills {
+    padding: 10px 10px 10px 25px;
+    width: 30%;
+    background-color: white;
+}
+
+.projects {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.project {
+    width: 40%;
+    background-color: white;
+    padding: 10px 10px 10px 25px;
+}
+
+.project a {
+    display: block;
+}
+
+footer {
+    padding: 10px 0px 10px 10px;
+    background: linear-gradient(90deg, #141e30, #243b55);
+    color: white;
+}
+
+.foot-add {
+    display: flex;
+    align-items: center;
+}
+
+.foot-contact {
+    margin: 0px 450px 0px 0px;
+}
+
+.foot-social_medias a {
+    font-size: 1.5rem;
+    margin-right: 15px;
+}
+
+.foot-copyright p {
+    text-align: center;
+    font-size: 0.85rem;
+}
